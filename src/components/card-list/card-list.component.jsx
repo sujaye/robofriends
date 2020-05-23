@@ -1,5 +1,7 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../card/card.component';
+
+import './card-list.styles.css';
 
 const CardList = ({robots}) => {
 
@@ -14,7 +16,7 @@ const CardList = ({robots}) => {
         );
     })
     return (
-        <div>
+        <div className='card-list'>
             {CardArray}
         </div>
     );

@@ -1,10 +1,11 @@
 import React, {Fragment, Component} from 'react';
 import {connect} from 'react-redux';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
+
+import CardList from '../components/card-list/card-list.component';
+import SearchBox from '../components/search-box/search-box.component';
+import Scroll from '../components/scroll/scroll.component';
 import './App.css';
-import ErrorBoundry from '../components/ErrorBoundry';
+import ErrorBoundry from '../components/error-boundry/error-boundry.component';
 
 import {setSearchField, requestRobots} from '../actions';
 
